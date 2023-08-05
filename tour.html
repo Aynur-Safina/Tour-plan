@@ -7,37 +7,46 @@
   <title>Tour-plan</title>
 </head>
 <body>
-  <!-- Шапка -->
+  <!-- ШАПКА -->
   <header class="header">
-    <!-- верхняя часть шапки -->
+    <!-- верхняя часть ШАПКИ -->
       <div class=" header-top container">
-        <img src="" alt="" class="header-top__logo">
-        <div class="header-top__search"></div><!-- /.header-top__search -->
-        <div class="header-top__login"></div><!-- /.header-top__login -->
-
+        <span class="header-top__logo">Best tour plan</span>
+        <div class="header-top__search">
+          <input type="text" class="header-top__search-input">
+          <button class="header-top__search-button"></button><!-- /.header-top__search-button -->
+        </div><!-- /.header-top__search -->
+        <div class="header-top__login">
+          <img src="" alt="" class="header-top__login-avatar">
+          <a href="#" class="header-top__login-name">Nathan</a>
+        </div><!-- /.header-top__login -->
       </div><!-- /.container header-top -->
       
-      <!--  нижняя часть шапки-->
-      <nav class=" header-nav container">
-         <a href="#" class="header-nav__link"></a>
-         <a href="" class="header-nav__link"></a>
-         <a href="" class="header-nav__link"></a>
-         <a href="" class="header-nav__link"></a>
-         <a href="" class="header-nav__link"></a>
-         <a href="" class="header-nav__link"></a>
-         <a href="" class="header-nav__link"></a>
+      <!--  нижняя часть ШАПКИ-->
+      <nav class=" header-bottom container">
+         <a href="#" class="header-bottom__link">All Deals</a>
+         <a href="#" class="header-bottom__link">Hotels</a>
+         <a href="#" class="header-bottom__link">Activities</a>
+         <a href="#" class="header-bottom__link">Hotel Day Packages</a>
+         <a href="#" class="header-bottom__link">Restaurants</a>
+         <a href="#" class="header-bottom__link">Events</a>
+         <a href="#" class="header-bottom__link">Rodrigues</a>
       </nav>
 
   </header><!-- /.header -->
   
+  <!-- ОСНОВНАЯ ЧАСТЬ -->
   <main>
     <section class="hero container"></section><!-- /.hero -->
-    <section class="send-email"></section><!-- /.send-email -->
+    <section class="newsletter"></section><!-- /.newsletter -->
     <section class="about container"></section><!-- /.about -->
     <section class="activities container"></section><!-- /.activities -->
 
   </main>
+
+  <!-- ПОДВАЛ -->
   <footer class="footer">
+    <!-- Верзняя часть ПОДВАЛа (информация) -->
     <div class="footer-information container">
       <img src="" alt="" class="footer-infotmation__logo">
       <div class="footer-informarion__wrap">
@@ -54,7 +63,7 @@
       <!-- /.footer-informarion__wrap -->
     </div><!-- /.footer-information -->
 
-
+<!-- Середина ПОДВАЛа (контакты) -->
     <div class="footer-contacts container">
       <div class="footer-contacts__contact-details"></div>
       <!-- /.footer-contacts__contact-details -->
@@ -62,6 +71,8 @@
       <!-- footer-contacts__send-message> -->
 
     </div> <!-- /.footer-contacts -->
+
+    <!-- Нижняя строчка ПОДВАЛа -->
     <div class="footer-privacy-policy">
       <a href="#" class="footer-privacy-policy__disclaimer"></a>
       <!-- /.footer-privacy-policy__disclaimer -->
