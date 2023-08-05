@@ -1,3 +1,9 @@
 body{
-  background: red;
+ width: 1440px;
+ display: flex;
+ box-sizing: border-box;
+ margin: 0px 0px;
 }
+ .container{
+  width: 1115px;
+ }
