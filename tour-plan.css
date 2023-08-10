@@ -11,11 +11,11 @@ font-family: 'Luckiest Guy', cursive;}
 }
 
 body{
-  display:flex;
+ display:flex;
  max-width: 1440px;
  box-sizing: border-box;
  margin: 0px 0px;
- background:blue;
+ 
 }
 
 
@@ -110,25 +110,48 @@ height: 40px;
   flex-direction: column;
   height: 130px;
   width: 1440px;
-  background: #0A223D;
+  background: linear-gradient(to bottom, #0A223D 80px, #F5FAFE 50px);
  }
 
  .header-bottom__nav{
   display: flex;
   background:#0A223D;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   /* width: 1440px; */
   height: 80px;
-  color:#FFFFFF;
+ }
+
+  .header-bottom__link{
+color: #FFFFFF;
   font-family: Mulish;
   font-weight: bold;
   font-style: 14px;
   text-transform: uppercase;
-  text-decoration: none;}
-
-  .header-bottom_empty-space{
-    background:#F5FAFE;
-    height: 50px;
+  text-decoration: none;
   }
+
+  .header-bottom__breadcump{
+    display:flex;
+    gap: 5px;
+    background:#F5FAFE;
+    list-style-type:'/';
+    align-items:center;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  
+  .header-bottom__breadcump-link{
+    text-decoration: none;
+    color:#333333;
+    font-family: Mulish;
+    font-size: 10px;
+    margin-right: 2px;
+    margin-left: 2px;
+   
+  }
+
+ .header-bottom li:nth-child(1) {
+    list-style-type: none;
+    }
+    
