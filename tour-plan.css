@@ -131,7 +131,7 @@ color: #FFFFFF;
   text-decoration: none;
   }
 
-  .header-bottom__breadcump{
+  .header-bottom__breadcrump{
     display:flex;
     gap: 5px;
     background:#F5FAFE;
@@ -141,7 +141,7 @@ color: #FFFFFF;
     padding: 0;
   }
   
-  .header-bottom__breadcump-link{
+  .header-bottom__breadcrump-link{
     text-decoration: none;
     color:#333333;
     font-family: Mulish;
