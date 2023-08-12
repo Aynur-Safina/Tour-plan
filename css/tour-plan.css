@@ -134,11 +134,11 @@ color: #FFFFFF;
   text-transform: uppercase;
   text-decoration: none;
   }
+
+
  /* ОСНОВНАЯ ЧАСТЬ (MAIN) */
 
  /* SECTION Хлебные крошки */
-  
-
   .bread-crumbs{
     display:flex;
     background:#F5FAFE;
@@ -171,4 +171,122 @@ margin: 0;
   margin-left: 4px;
 }
  
-    
+    /* Section Hero (MAIN) */
+
+.hero{
+ display: flex;
+ width:1440px;
+ height: 100px;
+ background: #F5FAFE;
+ justify-content: center;
+ align-items: center;
+ }
+
+.hero-info{
+  display:flex;
+  max-width: 500px;
+  flex-direction: column;
+}
+
+.hero-info__wrapper{
+  display: flex;
+  width: 500px;
+  flex-wrap: wrap; 
+  align-items: center
+}
+
+.hero-info__stars{
+  display: flex;
+  width:100%;
+  padding-bottom: 4px;
+
+}
+.hero-info__one-star{
+  width: 6px;
+  height: 6px;
+  object-fit: cover;
+}
+
+.hero-info__name{
+  display: flex;
+  color: var(--gray-1, #333);
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-right: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.offer{
+display: flex;
+width: 70px;
+height: 20px;
+flex-shrink: 0;
+justify-content: center;
+align-items: center;
+border-radius: 3px;
+background: #EC1F46;
+color: #FFF;
+font-family: Mulish;
+font-size: 10px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.hero-info__description{
+  display: flex;
+  color: var(--gray-1, #333);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-rating{
+  display: flex;
+width: 65px;
+  min-height: 45px;
+  flex-shrink: 0;
+  border-radius: 4px;
+    background: #EC1F46;
+    margin-bottom: 27px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 9px 6px 9px 6px;
+}
+
+.hero-rating__title{
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+  color: #FFF;
+    font-family: Mulish;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0px 0px 2px 0px;
+}
+
+.hero-rating__count{
+  color: #FFF;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.hero-rating__count_big{
+  font-size: 14px;
+}
+
+.hero-rating__count_small{
+  font-size: 10px;
+}
