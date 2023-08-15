@@ -290,3 +290,48 @@ width: 65px;
 .hotel-name-rating__count_small{
   font-size: 10px;
 }
+
+/* Section Booking (MAIN) */
+.swiper {
+  width: 728px;
+  height: 450px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.booking-slider__button{
+  position: absolute;
+  z-index: 99;
+  top: 213px;
+  width: 30px;
+  height: 30px;
+  border:none;
+  background:transparent;
+  cursor: pointer;
+}
+
+.booking-slider__button_next{
+right:0;
+background-image: url(/img/chevron-right.svg);
+}
+
+.booking-slider__button_prev{
+  background-image: url(/img/chevron-left.svg);
+}
+
+.booking-booking{
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 210px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #0A223D;
+padding: 29px 29px 26px 26px;
+
+}
+
+.booking__price-room{
+  display: flex;
+  justify-content: space-between;
+}
