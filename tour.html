@@ -4,41 +4,140 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/Tour-plan/tour-plan.css">
+  <link rel="stylesheet" href="/css/tour-plan.css">
   <title>Tour-plan</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Mulish&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/cdn.jsdelivr.net_npm_swiper@10.1.0_swiper-bundle.min.css">
 </head>
 <body>
   <!-- ШАПКА -->
   <header class="header">
     <!-- верхняя часть ШАПКИ -->
-      <div class=" header-top container">
-        <span class="header-top__logo">Best tour plan</span>
-        <div class="header-top__search">
-          <input type="text" class="header-top__search-input">
-          <button class="header-top__search-button"></button><!-- /.header-top__search-button -->
-        </div><!-- /.header-top__search -->
-        <div class="header-top__login">
-          <img src="" alt="" class="header-top__login-avatar">
-          <a href="#" class="header-top__login-name">Nathan</a>
-        </div><!-- /.header-top__login -->
+      <div class="header-top">
+        <div class="container">
+          <span class="header-top__logo"> Best <span class="header-top__logo  header-top__logo_red-color">tour</span> plan</span>
+          <form class="header-top__search">
+            <input type="text" name="#" class="header-top__search-input" placeholder="Search Location">
+            <button class="header-top__search-button"><img class="header-top__seacrh-icon" src="/img/search.png" alt=""></button>
+          </form><!-- /.header-top__search -->
+          <div class="header-top__login">
+            <img src="/img/Ellipse 1 (1).png" alt="Avatar_Photo" class="header-top__login-avatar">
+            <a href="#" class="header-top__login-name">Nathan</a>
+          </div><!-- /.header-top__login -->
+        </div><!-- /.container -->
       </div><!-- /.container header-top -->
       
       <!--  нижняя часть ШАПКИ-->
-      <nav class=" header-bottom container">
-         <a href="#" class="header-bottom__link">All Deals</a>
-         <a href="#" class="header-bottom__link">Hotels</a>
-         <a href="#" class="header-bottom__link">Activities</a>
-         <a href="#" class="header-bottom__link">Hotel Day Packages</a>
-         <a href="#" class="header-bottom__link">Restaurants</a>
-         <a href="#" class="header-bottom__link">Events</a>
-         <a href="#" class="header-bottom__link">Rodrigues</a>
-      </nav>
+      <div class="header-bottom">
+        <div class="container">
+          <nav class="header-bottom__nav">
+            <a href="#" class="header-bottom__link">All Deals</a>
+            <a href="#" class="header-bottom__link">Hotels</a>
+            <a href="#" class="header-bottom__link">Activities</a>
+            <a href="#" class="header-bottom__link">Hotel Day Packages</a>
+            <a href="#" class="header-bottom__link">Restaurants</a>
+            <a href="#" class="header-bottom__link">Events</a>
+            <a href="#" class="header-bottom__link">Rodrigues</a>
+          </nav>
+        </div><!-- /.container -->
+         </div> 
 
   </header><!-- /.header -->
   
   <!-- ОСНОВНАЯ ЧАСТЬ -->
   <main>
-    <section class="hero container"></section><!-- /.hero -->
+    <section class="bread-crumbs">
+      <div class="container">
+        <ul class="bread-crumbs__list">
+         <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link"> Home</a></li>
+         <li class="bread-crumbs__item"><a href="#" class="bread-crumbs__link">Flash Offers</a></li>
+         <li class="bread-crumbs__item"><a href="#"class="bread-crumbs__link" >Grand</a></li>
+         <li class="bread-crumbs__item">Hilton Hotel</li>
+        </ul>
+      </div><!-- /.container -->
+    </section> <!-- /.bread-crumbs -->
+    <section class="hotel-name"> 
+      <div class="container">
+        <div class="hotel-name-info">
+          <div class="hotel-name-info__wrapper">
+            <div class="hotel-name-info__stars">
+              <img class="hotel-name-info__one-star" src="/img/star.svg" alt="star-icon">
+              <img class="hotel-name-info__one-star" src="/img/star.svg" alt="star-icon">
+              <img  class="hotel-name-info__one-star" src="/img/star.svg" alt="star-icon">
+              <img  class="hotel-name-info__one-star" src="/img/star.svg" alt="star-icon">
+              <img  class="hotel-name-info__one-star" src="/img/star.svg" alt="star-icon">
+            </div> <!-- /.hotel-name-info__stars -->
+            <h1 class="hotel-name-info__name">GRAND HILTON HOTEL</h1><!-- hotel-name-info__name-->
+            <div class="offer">Flash Offer</div><!-- /.offer -->
+          </div><!-- /.hotel-name-info__wrapper -->
+           
+           <h2 class="hotel-name-info__description">Half-Board/ All Inclusive + Complimentary Activities + Child Stays Free</h2> <!-- hotel-name-description -->
+         </div><!-- /.hotel-name-info -->
+        <div class="hotel-name-rating">
+          <h3 class="hotel-name-rating__title">User Ratings</h3>
+          <span class="hotel-name-rating__count hotel-name-rating__count_big">4.5/</span>
+          <span class=" hotel-name-rating__count hotel-name-rating__count_small">5</span>
+
+        </div> <!-- hotel-name-rating -->
+     
+      </div>
+      <!-- /.container -->
+      
+    </section><!-- /.hotel-name -->
+    <section class="booking">
+      <div class="container">
+        <div class="booking-slider">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <img src="/img/Slider.svg" alt="Slider">
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Slider.svg" alt="Slider">
+              </div>
+              <div class="swiper-slide">
+                <img src="/img/Slider.svg" alt="Slider">
+              </div>
+            </div>
+            <button class=" booking-slider__button booking-slider__button_prev"></button>
+            <button class="booking-slider__button booking-slider__button_next"></button>
+          
+          </div>
+        </div><!-- /.booking-slider -->
+        <div class="booking-booking">
+          <div class="booking__price-room">
+            <span class="booking__price">
+              <span>price starts as</span>
+              <span class=" booking__price booking__price_big">$ 8,500</span>
+              <span>per room / night</span>
+            </span><!-- /.booking-price -->
+            <span class="booking__room">
+              <span>img   2 x Guests</span>
+              <span>1 x Room</span>
+            </span><!-- /.booking-room -->
+          </div>
+          <!-- /.booking__price -->
+          <div class="booking__call-center">
+            <span class="booking__quick-booking"></span>
+            <span class="booking__phone-numberc"></span>
+          </div>
+          <!-- /.booking__call-center -->
+          <div class="booking__options-button"></div>
+          <!-- /.booking__options-button -->
+
+        </div> <!-- /.booking-booking -->
+        <div class="booking-map"></div>
+        <!-- /.booking-map -->
+      </div>
+      <!-- /.container -->
+
+    </section><!-- /.booking -->
     <section class="newsletter"></section><!-- /.newsletter -->
     <section class="about container"></section><!-- /.about -->
     <section class="activities container"></section><!-- /.activities -->
@@ -86,5 +185,7 @@
     <!-- /.footer-privacy-policy -->
   </footer>
   <!-- /.footer -->
+  <script src="/js/cdn.jsdelivr.net_npm_swiper@10.1.0_swiper-bundle.min.js"></script>
+  <script src="/js/main.js"></script>
 </body>
 </html>
